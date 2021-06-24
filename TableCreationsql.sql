@@ -15,7 +15,6 @@ CREATE TABLE Departments (
 	PK_did INTEGER PRIMARY KEY,
 	name VARCHAR(50),
 	main_office VARCHAR(50),
-	FK_chairmanid INTEGER UNIQUE, --id of chairman of department
 );
 
 CREATE TABLE GradStudents (
@@ -27,10 +26,10 @@ CREATE TABLE GradStudents (
 
 CREATE TABLE Projects (
 	PK_pid INTEGER PRIMARY KEY,
-	project_name VARCHAR(20),
+	sponsor_name VARCHAR(100),
 	start_date VARCHAR(20),
 	end_date VARCHAR(20),
-	budget DECIMAL (8, 2),
+	budget INTEGER,
 );
 
 --=======================
@@ -62,14 +61,14 @@ CREATE TABLE Manages (
 --Represents the relationship "WorksOn" between CoInvestigators and Projects
 CREATE TABLE CoInvestigators (
 	/* Fields */
-	FK_professorid INTEGER,
+	FK_coinvestigatorid INTEGER,
 	FK_pid INTEGER,
 
-	PRIMARY KEY (FK_professorid, FK_pid),
+	PRIMARY KEY (FK_coinvestigatorid, FK_pid),
 
 	/* Foreign Key between CoInvestigators and Professors */
 	CONSTRAINT FK_CoInvestigatorISAProfessor --ISA FK constraint tying CoInvestigator's ID with matching ID in Professors table.
-		FOREIGN KEY (FK_professorid) REFERENCES Professors(PK_fid)
+		FOREIGN KEY (FK_coinvestigatorid) REFERENCES Professors(PK_fid)
 			ON DELETE NO ACTION
 			ON UPDATE NO ACTION,
 	
@@ -188,3 +187,17 @@ CREATE TABLE Chairs (
 			ON DELETE CASCADE
 			ON UPDATE CASCADE,
 );
+
+
+DROP TABLE Professors;
+DROP TABLE Projects;
+DROP TABLE Departments;
+DROP TABLE GradStudents;
+
+DROP TABLE Advises;
+DROP TABLE WorksIn;
+DROP TABLE Chairs;
+DROP TABLE CoInvestigators;
+DROP TABLE Manages;
+DROP TABLE ResearchAssistant;
+DROP TABLE StudentIn;
