@@ -1,0 +1,19 @@
+100,College of Liberal Arts,231 Ross,142519864
+101,College of Engineering,2215 Coover Hall,254099823
+102,College of Business,1200 Gerdin Business Building,248965255
+
+100,English,231 Ross 527 Farm House Ln,142519864
+101,Architecture,289 Design 715 Bissell Road,242518965
+102,Law,290 Boyd Law Building,141582651
+103,Computer Science,2434 Osborn Dr,011564812
+104,Electrical Engineering,2215 Coover Hall,254099823
+105,Psychology,1347 Stange Rd,356187925
+106,Animal Science,1221 Kildee Hall,489456522
+107,History,603 Ross Hall,287321212
+108,Finance,1200 Gerdin,248965255
+109,Accounting,1200 Gerdin,159542516
+110,Computer Engineering,2215 Coover Hall,090873519
+111,Education,1620 Lagomarcino Hall,486512566
+112,Photography,Prov Wash Floor 4 20 Washington Place,619023588
+113,Economics,260 Heady Hall 518 Farm House Lane,489221823
+114,Civil Engineering,394 Town Engineering,548977562

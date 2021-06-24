@@ -1,24 +1,24 @@
-051135593,Maria White,English,SR,21
-060839453,Charles Harris,Architecture,SR,22
-099354543,Susan Martin,Law,JR,20
-112348546,Joseph Thompson,Computer Science,SO,19
-115987938,Christopher Garcia,Computer Science,JR,20
-132977562,Angela Martinez,History,SR,20
-269734834,Thomas Robinson,Psychology,SO,18
-280158572,Margaret Clark,Animal Science,FR,18
-301221823,Juan Rodriguez,Psychology,JR,20
-318548912,Dorthy Lewis,Finance,FR,18
-320874981,Daniel Lee,Electrical Engineering,FR,17
-322654189,Lisa Walker,Computer Science,SO,17
-348121549,Paul Hall,Computer Science,JR,18
-351565322,Nancy Allen,Accounting,JR,19
-451519864,Mark Young,Finance,FR,18
-455798411,Luis Hernandez,Electrical Engineering,FR,17
-462156489,Donald King,Mechanical Engineering,SO,19
-550156548,George Wright,Education,SR,21
-552455318,Ana Lopez,Computer Engineering,SR,19
-556784565,Kenneth Hill,Civil Engineering,SR,21
-567354612,Karen Scott,Computer Engineering,FR,18
-573284895,Steven Green,Kinesiology,SO,19
-574489456,Betty Adams,Economics,JR,20
-578875478,Edward Baker,Veterinary Medicine,SR,21
+051135593,Maria White,1983-11-13,English
+060839453,Charles Harris,1984-02-29,Architecture
+099354543,Susan Martin,2003-04-01,Law
+112348546,Joseph Thompson,1983-08-19,Computer Science
+115987938,Christopher Garcia,1995-03-27,Computer Science
+132977562,Angela Martinez,1988-12-15,History
+269734834,Thomas Robinson,1997-01-29,Psychology
+280158572,Margaret Clark,1991-10-24,Animal Science
+301221823,Juan Rodriguez,1982-04-07,Psychology
+318548912,Dorthy Lewis,2002-08-30,Finance
+320874981,Daniel Lee,1991-01-29,Electrical Engineering
+322654189,Lisa Walker,1993-03-17,Computer Science
+348121549,Paul Hall,1982-03-20,Computer Science
+351565322,Nancy Allen,1983-05-27,Accounting
+451519864,Mark Young,1989-12-14,Finance
+455798411,Luis Hernandez,1998-11-04,Electrical Engineering
+462156489,Donald King,1993-12-31,Mechanical Engineering
+550156548,George Wright,1995-07-22,Education
+552455318,Ana Lopez,1994-01-03,Computer Engineering
+556784565,Kenneth Hill,1998-07-16,Civil Engineering
+567354612,Karen Scott,1992-05-05,Computer Engineering
+573284895,Steven Green,1993-05-01,Kinesiology
+574489456,Betty Adams,1989-02-02,Economics
+578875478,Edward Baker,1994-09-29,Veterinary Medicine
