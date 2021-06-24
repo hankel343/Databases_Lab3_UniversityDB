@@ -187,17 +187,3 @@ CREATE TABLE Chairs (
 			ON DELETE CASCADE
 			ON UPDATE CASCADE,
 );
-
-
-DROP TABLE Professors;
-DROP TABLE Projects;
-DROP TABLE Departments;
-DROP TABLE GradStudents;
-
-DROP TABLE Advises;
-DROP TABLE WorksIn;
-DROP TABLE Chairs;
-DROP TABLE CoInvestigators;
-DROP TABLE Manages;
-DROP TABLE ResearchAssistant;
-DROP TABLE StudentIn;
