@@ -80,7 +80,7 @@ CREATE TABLE CoInvestigators (
 );
 
 --Represents the "WorksIn" relationship between Professors and Departments
-CREATE TABLE WorksIn ( 
+CREATE TABLE FacultyIn ( 
 	/* Fields */
 	FK_professorid INTEGER,
 	FK_departmentid INTEGER,
@@ -118,7 +118,7 @@ CREATE TABLE StudentIn (
 
 	/* Foreign Key to Departments record */
 	CONSTRAINT Department_StudentIn
-		FOREIGN KEY (FK_sid) REFERENCES Departments(PK_did) 
+		FOREIGN KEY (FK_did) REFERENCES Departments(PK_did) 
 			ON DELETE CASCADE
 			ON UPDATE CASCADE,
 );
@@ -187,3 +187,5 @@ CREATE TABLE Chairs (
 			ON DELETE CASCADE
 			ON UPDATE CASCADE,
 );
+
+CREATE TRIGGER update_time_percentage
