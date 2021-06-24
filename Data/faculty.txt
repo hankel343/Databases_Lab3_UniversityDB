@@ -1,15 +1,15 @@
-142519864,Ivana Teach,20
-242518965,James Smith,68
-141582651,Mary Johnson,20
-011564812,John Williams,68
-254099823,Patricia Jones,68
-356187925,Robert Brown,12
-489456522,Linda Davis,20
-287321212,Michael Miller,12
-248965255,Barbara Wilson,12
-159542516,William Moore,33
-090873519,Elizabeth Taylor,11
-486512566,David Anderson,20
-619023588,Jennifer Thomas,11
-489221823,Richard Jackson,33
-548977562,Ulysses Teach,20
+142519864,Ivana Teach,Associate,2001-03-30,History
+242518965,James Smith,Associate,1994-03-03,Med/Ren
+141582651,Mary Johnson,Associate,2002-06-20,Computer Science
+011564812,John Williams,Full,1988-10-26,Mech. Eng.
+254099823,Patricia Jones,Full,1982-12-29,Electrical Eng.
+356187925,Robert Brown,Associate,1985-12-02,Psychology
+489456522,Linda Davis,Full,1990-10-17,English
+287321212,Michael Miller,Associate,1984-05-12,History
+248965255,Barbara Wilson,Full,2000-04-14,Music
+159542516,William Moore,Adjunct,1995-01-02,Accounting
+090873519,Elizabeth Taylor,Adjunct,1993-03-18,Marketing
+486512566,David Anderson,Adjunct,2002-09-03,German
+619023588,Jennifer Thomas,Adjunct,1996-08-25,Photography
+489221823,Richard Jackson,Full,1993-03-30,Economics
+548977562,Ulysses Teach,Emeritus,1989-11-05,Statistics
