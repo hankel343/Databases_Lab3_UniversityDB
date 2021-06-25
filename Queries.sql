@@ -20,15 +20,15 @@ JOIN Manages ON Professors.PK_fid = FK_primaryinvestigatorid;
 SELECT G.name
 FROM GradStudents AS G
 WHERE G.PK_sid in ((SELECT R.FK_raid --Return set of all RAids in RA records that have a count greater than three
-					FROM ResearchAssistant AS R
-					GROUP BY R.FK_raid
-					HAVING (COUNT(R.FK_raid) >= 3)));
+			FROM ResearchAssistant AS R
+			GROUP BY R.FK_raid
+			HAVING (COUNT(R.FK_raid) >= 3)));
 
 --(5) What are the professors that work in each department?
 SELECT P.name
 FROM Professors AS P
 WHERE P.PK_fid IN ((SELECT F.FK_professorid
-					FROM FacultyIn AS F
-					GROUP BY F.FK_professorid
-					HAVING COUNT(F.FK_professorid) = 3));
+			FROM FacultyIn AS F
+			GROUP BY F.FK_professorid
+			HAVING COUNT(F.FK_professorid) = 3));
 
