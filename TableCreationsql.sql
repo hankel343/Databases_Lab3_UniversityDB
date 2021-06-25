@@ -151,9 +151,12 @@ CREATE TABLE ResearchAssistant (
 --StudentAdvisors exist in an ISA relationship with GradStudents
 CREATE TABLE Advises (
 	FK_advisorid INTEGER, --Advisor can advise multiple students
-	FK_adviseeid INTEGER UNIQUE, --GradStudent will have one advisor
+	FK_adviseeid INTEGER UNIQUE NOT NULL, --GradStudent will have one advisor
 
 	PRIMARY KEY (FK_advisorid, FK_adviseeid),
+
+	CONSTRAINT self_referencing_not_allowed
+		CHECK (FK_advisorid <> FK_adviseeid),
 
 	/* Foreign Key to GradStudent for Advisor */
 	CONSTRAINT AdvisesAsAdvisor_GradStudent
@@ -187,5 +190,3 @@ CREATE TABLE Chairs (
 			ON DELETE CASCADE
 			ON UPDATE CASCADE,
 );
-
-CREATE TRIGGER update_time_percentage
