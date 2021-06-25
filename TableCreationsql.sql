@@ -190,3 +190,15 @@ CREATE TABLE Chairs (
 			ON DELETE CASCADE
 			ON UPDATE CASCADE,
 );
+
+CREATE TABLE StudentLog (
+	message VARCHAR(255),
+);
+
+CREATE TRIGGER tr_gradstudent_log
+ON GradStudents
+FOR INSERT
+AS
+BEGIN
+	INSERT INTO StudentLog(message) VALUES('New GradStudent record inserted at ' + CAST(GETDATE() AS NVARCHAR(20)));
+END
